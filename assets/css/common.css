@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	margin:0px;
+	padding:0px;
+	font-family: "Montserrat", sans-serif;
+	font-size:16px;
+	color:#ffffff;
+	overflow-x: hidden;
+	background-color:#212121;
+}
+h1{
+	font-family: 'DidotLTPro';
+	font-size: 84px;
+	font-weight: 700;
+	line-height: 50px;
+	color:#fff;
+}
+h2{
+	font-family: 'DidotLTPro';
+	font-size: 44px;
+	color:#FFFFFF;
+	font-weight:700;
+	line-height:58px;
+}
+h3{
+	font-family: 'DidotLTPro';
+	font-size: 40px;
+	color:#FFFFFF;
+	font-style: italic;
+	font-weight:700;
+	line-height:20px;
+}
+h4{
+	font-family: "Montserrat", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 50px;
+	color:#fff;
+}
+h5{
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 22px;
+	color:#fff;
+}
+p{
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:28px;
+}
+/*------------------------------------*\
+	FONT RESET
+\*------------------------------------*/
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{ 
+	border:0;
+}
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal;
+}
+caption,th{
+	text-align:left;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+a{
+	color:#fff;
+}
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+/*--- QUOTES ---*/
+blockquote{
+	margin:0 60px 0 45px;
+	border-left:5px solid #ccc;
+	padding-left:10px;
+	text-indent:-0.4em;
+}
+blockquote b{
+	display:block;
+	text-indent:0;
+}
+
+img{ 
+	max-width:100%; 
+	height:auto
+}
+a{
+	text-decoration:none;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+ul li{
+	list-style:none;
+}
+/************************** Page CSS********************/
+.full-width{
+	width:100vw;
+	margin-left:-50vw;
+	left:50%;
+	position:relative;
+}
+.common-background-style{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.common-overlay{
+	background-color: rgb(0, 0, 0, 0.7);
+}
+.common-link{
+    font-family: "Montserrat", sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height:28px;
+    letter-spacing: 1px;
+    padding-bottom:10px;
+    text-decoration: none !important;
+	position: relative;
+}
+.common-link:after{
+	content:'';
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:2px;
+	background-color: #01B5CC;
+}
+.common-link:hover:after{
+	width:20px;
+	left:50%;
+	transform: translateX(-50%);
+	transition: all 0.5s;
+}
+.common-link:hover{
+	color:#fff;
+}
+.common-row-wrapper{
+	margin-left:-35px;
+	margin-right:-35px;
+}
+.common-row-wrapper .col-lg-6{
+	padding-left:35px;
+	padding-right:35px;
+}

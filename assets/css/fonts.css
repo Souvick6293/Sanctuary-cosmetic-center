@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DidotLTPro';
+    src: url('../fonts/DidotLTPro-Bold.eot');
+    src: url('../fonts/DidotLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DidotLTPro-Bold.woff2') format('woff2'),
+        url('../fonts/DidotLTPro-Bold.woff') format('woff'),
+        url('../fonts/DidotLTPro-Bold.ttf') format('truetype'),
+        url('../fonts/DidotLTPro-Bold.svg#DidotLTPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
